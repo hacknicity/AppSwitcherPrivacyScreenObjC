@@ -1,6 +1,10 @@
 #import "SceneDelegate.h"
 
+#import "PrivacyProtectionViewController.h"
+
 @interface SceneDelegate ()
+
+@property (strong, nullable, nonatomic) UIWindow *privacyProtectionWindow;
 
 @end
 
@@ -37,6 +41,7 @@
 - (void)sceneWillEnterForeground:(UIScene *)scene {
     // Called as the scene transitions from the background to the foreground.
     // Use this method to undo the changes made on entering the background.
+    [self hidePrivacyProtectionWindow];
 }
 
 
@@ -44,7 +49,27 @@
     // Called as the scene transitions from the foreground to the background.
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
+    [self showPrivacyProtectionWindow];
 }
 
+// MARK: Privacy Protection
+
+- (void)showPrivacyProtectionWindow {
+    UIWindowScene *windowScene = self.window.windowScene;
+
+    if (windowScene != nil) {
+        self.privacyProtectionWindow = [[UIWindow alloc] initWithWindowScene:windowScene];
+
+        self.privacyProtectionWindow.rootViewController = [[PrivacyProtectionViewController alloc] init];
+        self.privacyProtectionWindow.windowLevel = UIWindowLevelAlert + 1;
+
+        [self.privacyProtectionWindow makeKeyAndVisible];
+    }
+}
+
+- (void)hidePrivacyProtectionWindow {
+    self.privacyProtectionWindow.hidden = YES;
+    self.privacyProtectionWindow = nil;
+}
 
 @end

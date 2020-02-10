@@ -14,6 +14,7 @@
 		6C3FC9FF23F1B84900352DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FC9FE23F1B84900352DD8 /* Assets.xcassets */; };
 		6C3FCA0223F1B84900352DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FCA0023F1B84900352DD8 /* LaunchScreen.storyboard */; };
 		6C3FCA0523F1B84900352DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FCA0423F1B84900352DD8 /* main.m */; };
+		6C3FCA0D23F1B9DB00352DD8 /* PrivacyProtectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FCA0C23F1B9DB00352DD8 /* PrivacyProtectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6C3FCA0123F1B84900352DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C3FCA0323F1B84900352DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C3FCA0423F1B84900352DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C3FCA0B23F1B9DB00352DD8 /* PrivacyProtectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyProtectionViewController.h; sourceTree = "<group>"; };
+		6C3FCA0C23F1B9DB00352DD8 /* PrivacyProtectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyProtectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				6C3FC9F623F1B84700352DD8 /* SceneDelegate.m */,
 				6C3FC9F823F1B84700352DD8 /* ViewController.h */,
 				6C3FC9F923F1B84700352DD8 /* ViewController.m */,
+				6C3FCA0B23F1B9DB00352DD8 /* PrivacyProtectionViewController.h */,
+				6C3FCA0C23F1B9DB00352DD8 /* PrivacyProtectionViewController.m */,
 				6C3FC9FB23F1B84700352DD8 /* Main.storyboard */,
 				6C3FC9FE23F1B84900352DD8 /* Assets.xcassets */,
 				6C3FCA0023F1B84900352DD8 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 				6C3FC9F423F1B84700352DD8 /* AppDelegate.m in Sources */,
 				6C3FCA0523F1B84900352DD8 /* main.m in Sources */,
 				6C3FC9F723F1B84700352DD8 /* SceneDelegate.m in Sources */,
+				6C3FCA0D23F1B9DB00352DD8 /* PrivacyProtectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
