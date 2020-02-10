@@ -32,6 +32,8 @@
 		6C3FCA0423F1B84900352DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C3FCA0B23F1B9DB00352DD8 /* PrivacyProtectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyProtectionViewController.h; sourceTree = "<group>"; };
 		6C3FCA0C23F1B9DB00352DD8 /* PrivacyProtectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyProtectionViewController.m; sourceTree = "<group>"; };
+		6C3FCA0E23F1BD3900352DD8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6C3FCA0F23F1BD3900352DD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,8 @@
 		6C3FC9E623F1B84700352DD8 = {
 			isa = PBXGroup;
 			children = (
+				6C3FCA0F23F1BD3900352DD8 /* README.md */,
+				6C3FCA0E23F1BD3900352DD8 /* LICENSE */,
 				6C3FC9F123F1B84700352DD8 /* AppSwitcherPrivacyScreenObjC */,
 				6C3FC9F023F1B84700352DD8 /* Products */,
 			);
